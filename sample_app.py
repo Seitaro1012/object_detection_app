@@ -47,7 +47,7 @@ def detect_objects(filepath):
 
 st.title('物体検出アプリ_Sample')
 
-uploaded_file = st.file_uploader('Choose an image..', type=['jpg', 'png'])
+uploaded_file = st.file_uploader('Choose an image..', type=['jpg', 'png', 'HEIC'])
 
 if uploaded_file is not None:
     img = Image.open(uploaded_file)
