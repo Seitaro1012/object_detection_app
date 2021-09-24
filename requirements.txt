@@ -2,6 +2,5 @@ azure.cognitiveservices.vision.computervision
 msrest
 
 Pillow
-json
 numpy
 streamlit
