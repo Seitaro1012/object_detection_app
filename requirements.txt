@@ -1,5 +1,5 @@
 azure.cognitiveservices.vision.computervision
-msrest.authentication
+msresrt
 
 PIL
 json
