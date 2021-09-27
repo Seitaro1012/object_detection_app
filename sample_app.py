@@ -14,10 +14,6 @@ import json
 from numpy import save
 import streamlit as st
 
-
-with open('secret.json') as f:
-    secret = json.load(f)
-
 KEY = st.secrets['KEY']
 ENDPOINT = st.secrets['ENDPOINT']
 
